@@ -1,0 +1,53 @@
+/* reseter */
+
+/* srol halus */
+html{
+    scroll-behavior: smooth;
+}
+
+/* mengatur element border box */
+*{
+    box-sizing: border-box;
+}
+
+/* mengatur body pada html */
+
+body{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: brown;
+}
+
+.container{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 20px;
+    
+}
+
+.text1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 200px;
+    margin-top: 15px;
+    color: cyan;
+    background-color: darkcyan;
+}
+
+.input{
+    width: 200px;
+}
